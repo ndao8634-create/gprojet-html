@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.navbar {
+  border-bottom: 3px solid #ffc107;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 15px;
+}

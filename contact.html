@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Délice Dakar</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Ton CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Délice Dakar</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Connexion</a></li>
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- TITRE -->
+<div class="container text-center my-5">
+  <h1>Contactez-nous</h1>
+  <p>Envoyez-nous un message</p>
+</div>
+
+<!-- SECTION CONTACT -->
+<div class="container mb-5">
+  <div class="row">
+
+    <!-- FORMULAIRE -->
+    <div class="col-md-7">
+      <form>
+
+        <!-- NOM -->
+        <div class="mb-3">
+          <label class="form-label">Nom</label>
+          <input type="text" class="form-control" required minlength="2">
+        </div>
+
+        <!-- EMAIL -->
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" required>
+        </div>
+
+        <!-- SUJET -->
+        <div class="mb-3">
+          <label class="form-label">Sujet</label>
+          <select class="form-control" required>
+            <option value="">Choisir un sujet</option>
+            <option>Commande</option>
+            <option>Réservation</option>
+            <option>Information</option>
+            <option>Autre</option>
+          </select>
+        </div>
+
+        <!-- TELEPHONE -->
+        <div class="mb-3">
+          <label class="form-label">Téléphone</label>
+          <input type="tel" class="form-control">
+        </div>
+
+        <!-- MESSAGE -->
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" required minlength="20"></textarea>
+        </div>
+
+        <!-- CHECKBOX -->
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" required>
+          <label class="form-check-label">J'accepte les conditions</label>
+        </div>
+
+        <!-- BUTTON -->
+        <button type="submit" class="btn btn-primary w-100">
+          Envoyer
+        </button>
+
+      </form>
+    </div>
+
+    <!-- INFOS -->
+    <div class="col-md-5">
+      <h3>Nos coordonnées</h3>
+      <p><strong>Adresse :</strong> Dakar, Sénégal</p>
+      <p><strong>Téléphone :</strong> +221 77 643 65 06</p>
+      <p><strong>Email :</strong> ndao54448gmail.com</p>
+
+    
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>&copy; 2026 Délice Dakar</p>
+</footer>
+
+<!-- Bootstrap JS (OBLIGATOIRE POUR MENU MOBILE) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
